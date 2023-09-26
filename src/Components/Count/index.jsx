@@ -22,7 +22,7 @@ export default function Count() {
     return (
         <main className={styles.main_container}>
             <p className={styles.numbers}>{num}</p>
-            <p>{message}</p>
+            <p className={styles.text}>{message}</p>
             <section className={styles.button_container}>
                 <button onClick={add}> + </button>
                 <button onClick={sub}> - </button>
