@@ -17,11 +17,11 @@ export default function Count() {
     };
 
     return (
-        <main>
+        <main className={styles.main_container}>
             <p>{num}</p>
-            <section>
-                <button onClick={add}>+</button>
-                <button onClick={sub}>-</button>
+            <section className={styles.button_container}>
+                <button onClick={add}> + </button>
+                <button onClick={sub}> - </button>
             </section>
         </main>
     );
